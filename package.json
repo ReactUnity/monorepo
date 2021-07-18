@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "workspaces": [
+        "create",
+        "scripts",
+        "renderer",
+        "website",
+        "material",
+        "full-sample/react",
+        "core/.react/injectable",
+        "core/.react/quick-start",
+        "core/.react/style-editor"
+    ]
+}

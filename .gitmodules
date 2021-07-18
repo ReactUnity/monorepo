@@ -1,0 +1,21 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:ReactUnity/core.git
+[submodule "renderer"]
+	path = renderer
+	url = git@github.com:ReactUnity/renderer.git
+[submodule "scripts"]
+	path = scripts
+	url = git@github.com:ReactUnity/scripts.git
+[submodule "material"]
+	path = material
+	url = git@github.com:ReactUnity/material.git
+[submodule "create"]
+	path = create
+	url = git@github.com:ReactUnity/create.git
+[submodule "website"]
+	path = website
+	url = git@github.com:ReactUnity/reactunity.github.io.git
+[submodule "full-sample"]
+	path = full-sample
+	url = git@github.com:ReactUnity/full-sample
