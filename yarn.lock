@@ -1854,6 +1854,7 @@ __metadata:
     "@types/webpack-env": ^1.16.2
     concurrently: ^6.2.0
     copyfiles: ^2.4.1
+    eslint: ^7.32.0
     onchange: ^7.1.0
     react: ^17.0.2
     rimraf: ^3.0.2
@@ -1881,6 +1882,7 @@ __metadata:
     "@types/react-reconciler": ^0.26.3
     "@types/styled-components": 5.1.12
     "@types/webpack-env": ^1.16.2
+    eslint: ^7.32.0
     react-reconciler: ^0.26.2
     rimraf: ^3.0.2
     typescript: ^4.3.5
@@ -9776,6 +9778,7 @@ fsevents@^1.2.7:
     "@types/react-redux": ^7.1.18
     "@types/styled-components": 5.1.12
     clsx: ^1.1.1
+    eslint: ^7.32.0
     history: ^5.0.0
     react: ^17.0.2
     react-redux: ^7.2.4

@@ -20,6 +20,14 @@
         {
           "label": "Update Packages",
           "value": "yarn workspaces foreach exec npx npm-check-updates -u"
+        },
+        {
+          "label": "Build All",
+          "value": "yarn workspaces foreach run build"
+        },
+        {
+          "label": "Lint All",
+          "value": "yarn workspaces foreach run lint"
         }
       ]
     }
