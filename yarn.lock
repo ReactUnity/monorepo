@@ -1867,11 +1867,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reactunity/material@^0.0.1, @reactunity/material@workspace:material":
+"@reactunity/material@^0.1.1, @reactunity/material@workspace:material":
   version: 0.0.0-use.local
   resolution: "@reactunity/material@workspace:material"
   dependencies:
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/renderer": ^0.4.0
     "@reactunity/scripts": ^0.2.3
     "@types/react": ^17.0.19
     "@types/webpack-env": ^1.16.2
@@ -1889,7 +1889,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@reactunity/quick-start@workspace:core/.react/quick-start"
   dependencies:
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/renderer": ^0.4.0
     "@reactunity/scripts": ^0.2.3
     "@types/react": ^17.0.19
     react: ^17.0.2
@@ -1897,7 +1897,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reactunity/renderer@^0.3.1, @reactunity/renderer@workspace:renderer":
+"@reactunity/renderer@^0.4.0, @reactunity/renderer@workspace:renderer":
   version: 0.0.0-use.local
   resolution: "@reactunity/renderer@workspace:renderer"
   dependencies:
@@ -1969,7 +1969,7 @@ __metadata:
     webpack: 5.51.1
     webpack-dev-server: 3.11.2
   peerDependencies:
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/renderer": ^0.4.0
     typescript: ^4.3.5
   dependenciesMeta:
     fsevents:
@@ -1988,7 +1988,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@reactunity/style-editor@workspace:core/.react/style-editor"
   dependencies:
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/renderer": ^0.4.0
     "@reactunity/scripts": ^0.2.3
     "@types/react": ^17.0.19
     clsx: ^1.1.1
@@ -2014,7 +2014,7 @@ __metadata:
     next: ^11.1.0
     react: 17.0.2
     react-dom: 17.0.2
-    react-live: 2.3.0
+    react-live: 2.2.3
     remark: ^14.0.1
     remark-deflist: ^1.0.0
     remark-html: ^14.0.0
@@ -2082,15 +2082,6 @@ __metadata:
   version: 1.0.2
   resolution: "@tsconfig/node16@npm:1.0.2"
   checksum: ca94d3639714672bbfd55f03521d3f56bb6a25479bd425da81faf21f13e1e9d15f40f97377dedbbf477a5841c5b0c8f4cd1b391f33553d750b9202c54c2c07aa
-  languageName: node
-  linkType: hard
-
-"@types/buble@npm:^0.20.0":
-  version: 0.20.1
-  resolution: "@types/buble@npm:0.20.1"
-  dependencies:
-    magic-string: ^0.25.0
-  checksum: 45a68bbe4d161568678da706d3db25e06f08c12dd911f9af6f685a4033e3e7cc4bb0118c2cba39226c7dc64a5336ba4e8b19134d700e82a7c88350d7f3120177
   languageName: node
   linkType: hard
 
@@ -4262,10 +4253,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.14.0":
-  version: 3.16.2
-  resolution: "core-js@npm:3.16.2"
-  checksum: f48b988ab6d144aad1a7c09a73174946f797ec050b4566dee9bf0227560296cdd0f714b37f0ee065303eccf0e7fb8115ccca52ab3e80db12e0dcc20a88219483
+"core-js@npm:^2.4.1":
+  version: 2.6.12
+  resolution: "core-js@npm:2.6.12"
+  checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
   languageName: node
   linkType: hard
 
@@ -7534,7 +7525,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.25.0, magic-string@npm:^0.25.1":
+"magic-string@npm:^0.25.1":
   version: 0.25.7
   resolution: "magic-string@npm:0.25.7"
   dependencies:
@@ -8228,7 +8219,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "my-react-unity-ui@workspace:core/.react/injectable"
   dependencies:
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/renderer": ^0.4.0
     "@reactunity/scripts": ^0.2.3
     "@types/react": ^17.0.19
     react: ^17.0.2
@@ -9298,7 +9289,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prism-react-renderer@npm:^1.2.1":
+"prism-react-renderer@npm:^1.0.1":
   version: 1.2.1
   resolution: "prism-react-renderer@npm:1.2.1"
   peerDependencies:
@@ -9374,7 +9365,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.7.2":
+"prop-types@npm:^15.5.8, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -9656,19 +9647,18 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-live@npm:2.3.0":
-  version: 2.3.0
-  resolution: "react-live@npm:2.3.0"
+"react-live@npm:2.2.3":
+  version: 2.2.3
+  resolution: "react-live@npm:2.2.3"
   dependencies:
-    "@types/buble": ^0.20.0
     buble: 0.19.6
-    core-js: ^3.14.0
+    core-js: ^2.4.1
     dom-iterator: ^1.0.0
-    prism-react-renderer: ^1.2.1
-    prop-types: ^15.7.2
-    react-simple-code-editor: ^0.11.0
+    prism-react-renderer: ^1.0.1
+    prop-types: ^15.5.8
+    react-simple-code-editor: ^0.10.0
     unescape: ^1.0.1
-  checksum: c390df78312e5264692b0ac8f745c64294d433546a60eb5992f19fdc517ac6f726a91b7f726e71a79c24db6d16d8ee8a1e927064bec57b52dae488fe6741a93f
+  checksum: 2fbba62ac0647e18be7664a8e483d7bfede8c206e173e36042ff5dadbfd0359ae7d54d479dc1c25631cf531f99c03932749311ee6fd2a9d417ec18e5d63e6ec9
   languageName: node
   linkType: hard
 
@@ -9732,13 +9722,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-simple-code-editor@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "react-simple-code-editor@npm:0.11.0"
+"react-simple-code-editor@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "react-simple-code-editor@npm:0.10.0"
   peerDependencies:
     react: ^16.0.0
     react-dom: ^16.0.0
-  checksum: 20d9381c77c7a7ef256e2d871e1b0ab95cc0b025b3933467840f6608ce37835f98785d50b6709df7e4daf75889f3c95a0d80b1809f8399b2361ec282a063196b
+  checksum: d9f448c5d1ba1b630ad6d9d775b5fa651ad1144eb5850fed3831b97d9da6da1daced37301c09946ff3a586f1f0f488f314cc81b744a1b60a343f30517c0767e9
   languageName: node
   linkType: hard
 
@@ -9756,8 +9746,8 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "reactunity-sample@workspace:full-sample/react"
   dependencies:
-    "@reactunity/material": ^0.0.1
-    "@reactunity/renderer": ^0.3.1
+    "@reactunity/material": ^0.1.1
+    "@reactunity/renderer": ^0.4.0
     "@reactunity/scripts": ^0.2.3
     "@reduxjs/toolkit": ^1.6.1
     "@types/react-redux": ^7.1.18
