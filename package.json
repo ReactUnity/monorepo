@@ -8,7 +8,7 @@
       "full-sample/react",
       "core/.react/injectable",
       "core/.react/quick-start",
-      "core/.react/style-editor"
+      "core/.react/devtools"
     ]
   }
 }
