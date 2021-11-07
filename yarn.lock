@@ -1799,8 +1799,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@reactunity/devtools@workspace:core/.react/devtools"
   dependencies:
-    "@reactunity/renderer": ^0.7.0
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/renderer": ^0.8.0
+    "@reactunity/scripts": ^0.8.0
     clsx: ^1.1.1
     react: ^17.0.2
     typescript: ^4.4.4
@@ -1811,20 +1811,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@reactunity/injectable@workspace:core/.react/injectable"
   dependencies:
-    "@reactunity/material": ^0.7.0
-    "@reactunity/renderer": ^0.7.0
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/material": ^0.8.1
+    "@reactunity/renderer": ^0.8.0
+    "@reactunity/scripts": ^0.8.0
     react: ^17.0.2
     typescript: ^4.4.4
   languageName: unknown
   linkType: soft
 
-"@reactunity/material@^0.7.0, @reactunity/material@workspace:material":
+"@reactunity/material@^0.8.1, @reactunity/material@workspace:material":
   version: 0.0.0-use.local
   resolution: "@reactunity/material@workspace:material"
   dependencies:
-    "@reactunity/renderer": ^0.7.0
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/renderer": ^0.8.0
+    "@reactunity/scripts": ^0.8.0
     concurrently: ^6.3.0
     copyfiles: ^2.4.1
     memoize-one: ^6.0.0
@@ -1833,7 +1833,7 @@ __metadata:
     rimraf: ^3.0.2
     typescript: ^4.4.4
   peerDependencies:
-    "@reactunity/renderer": ^0.7.0
+    "@reactunity/renderer": ^0.8.0
     react: ^17.0.2
   languageName: unknown
   linkType: soft
@@ -1842,18 +1842,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@reactunity/quick-start@workspace:core/.react/quick-start"
   dependencies:
-    "@reactunity/renderer": ^0.7.0
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/renderer": ^0.8.0
+    "@reactunity/scripts": ^0.8.0
     react: ^17.0.2
     typescript: ^4.4.4
   languageName: unknown
   linkType: soft
 
-"@reactunity/renderer@^0.7.0, @reactunity/renderer@workspace:renderer":
+"@reactunity/renderer@^0.8.0, @reactunity/renderer@workspace:renderer":
   version: 0.0.0-use.local
   resolution: "@reactunity/renderer@workspace:renderer"
   dependencies:
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/scripts": ^0.8.0
     "@types/react-reconciler": ^0.26.4
     react-reconciler: ^0.26.2
     rimraf: ^3.0.2
@@ -1863,7 +1863,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reactunity/scripts@^0.7.0, @reactunity/scripts@workspace:scripts":
+"@reactunity/scripts@^0.8.0, @reactunity/scripts@workspace:scripts":
   version: 0.0.0-use.local
   resolution: "@reactunity/scripts@workspace:scripts"
   dependencies:
@@ -1916,7 +1916,7 @@ __metadata:
     webpack: 5.61.0
     webpack-dev-server: 4.4.0
   peerDependencies:
-    "@reactunity/renderer": ^0.7.0
+    "@reactunity/renderer": ^0.8.0
     typescript: ^4.4.4
   dependenciesMeta:
     fsevents:
@@ -7557,9 +7557,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "reactunity-sample@workspace:full-sample/react"
   dependencies:
-    "@reactunity/material": ^0.7.0
-    "@reactunity/renderer": ^0.7.0
-    "@reactunity/scripts": ^0.7.0
+    "@reactunity/material": ^0.8.1
+    "@reactunity/renderer": ^0.8.0
+    "@reactunity/scripts": ^0.8.0
     "@reduxjs/toolkit": ^1.6.2
     "@types/react-redux": ^7.1.20
     clsx: ^1.1.1
