@@ -32,7 +32,7 @@
       "path": "core/.react/devtools"
     },
     {
-      "path": "website"
+      "path": "docs"
     }
   ],
   "settings": {

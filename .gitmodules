@@ -13,8 +13,8 @@
 [submodule "create"]
 	path = create
 	url = git@github.com:ReactUnity/create.git
-[submodule "website"]
-	path = website
+[submodule "docs"]
+	path = docs
 	url = git@github.com:ReactUnity/reactunity.github.io.git
 [submodule "full-sample"]
 	path = full-sample
