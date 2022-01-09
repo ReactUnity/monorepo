@@ -1,4 +1,5 @@
 {
+  "name": "reactunity",
   "private": true,
   "workspaces": {
     "packages": [
