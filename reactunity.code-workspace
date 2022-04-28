@@ -32,6 +32,9 @@
       "path": "core/.react/devtools"
     },
     {
+      "path": "core/.react/injectable"
+    },
+    {
       "path": "docs"
     }
   ],
