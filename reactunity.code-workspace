@@ -36,6 +36,9 @@
     },
     {
       "path": "docs"
+    },
+    {
+      "path": "previewer"
     }
   ],
   "settings": {

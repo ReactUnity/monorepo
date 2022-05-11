@@ -7,7 +7,8 @@
       "renderer",
       "material",
       "full-sample/react",
-      "core/.react/injectable"
+      "core/.react/injectable",
+      "core/.react/devtools"
     ]
   },
   "packageManager": "yarn@3.2.0"
