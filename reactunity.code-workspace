@@ -17,6 +17,12 @@
       "path": "scripts"
     },
     {
+      "path": "quickjs"
+    },
+    {
+      "path": "clearscript"
+    },
+    {
       "path": "create"
     },
     {

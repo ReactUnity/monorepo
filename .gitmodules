@@ -13,6 +13,12 @@
 [submodule "create"]
 	path = create
 	url = git@github.com:ReactUnity/create.git
+[submodule "quickjs"]
+	path = quickjs
+	url = git@github.com:ReactUnity/quickjs.git
+[submodule "clearscript"]
+	path = clearscript
+	url = git@github.com:ReactUnity/clearscript.git
 [submodule "docs"]
 	path = docs
 	url = git@github.com:ReactUnity/reactunity.github.io.git
