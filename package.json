@@ -6,6 +6,7 @@
       "scripts",
       "renderer",
       "material",
+      "previewer",
       "full-sample/react",
       "core/.react/injectable",
       "core/.react/devtools",

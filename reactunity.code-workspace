@@ -26,6 +26,9 @@
       "path": "create"
     },
     {
+      "path": "previewer"
+    },
+    {
       "path": "material"
     },
     {

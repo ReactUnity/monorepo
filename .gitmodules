@@ -13,6 +13,9 @@
 [submodule "create"]
 	path = create
 	url = git@github.com:ReactUnity/create.git
+[submodule "previewer"]
+	path = previewer
+	url = git@github.com:ReactUnity/previewer.git
 [submodule "quickjs"]
 	path = quickjs
 	url = git@github.com:ReactUnity/quickjs.git
