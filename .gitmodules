@@ -19,6 +19,9 @@
 [submodule "quickjs"]
 	path = quickjs
 	url = git@github.com:ReactUnity/quickjs.git
+[submodule "jint"]
+	path = jint
+	url = git@github.com:ReactUnity/jint.git
 [submodule "clearscript"]
 	path = clearscript
 	url = git@github.com:ReactUnity/clearscript.git
