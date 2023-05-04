@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "core": true,
+    "renderer": true,
+    "scripts": true,
+    "quickjs": true,
+    "jint": true,
+    "clearscript": true,
+    "create": true,
+    "material": true,
+    "full-sample": true,
+    "docs": true,
+    "previewer": true
+  },
+}
