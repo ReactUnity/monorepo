@@ -12,3 +12,5 @@ node_modules
 # For zero installs:
 # !.yarn/cache
 # !.pnp.*
+
+.DS_STORE
