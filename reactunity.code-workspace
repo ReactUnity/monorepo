@@ -79,5 +79,6 @@
       "titleBar.inactiveBackground": "#13321c99",
       "titleBar.inactiveForeground": "#e7e7e799"
     },
+    "dotnet.defaultSolution": "full-sample/full-sample.sln",
   }
 }
