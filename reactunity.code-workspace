@@ -56,8 +56,8 @@
   "settings": {
     "typescript.tsdk": "./node_modules./typescript./lib",
     "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.organizeImports": true
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
     },
     "peacock.color": "#13321c",
     "workbench.colorCustomizations": {
@@ -80,5 +80,6 @@
       "titleBar.inactiveForeground": "#e7e7e799"
     },
     "dotnet.defaultSolution": "full-sample/full-sample.sln",
+    "dotnet.preferCSharpExtension": true,
   }
 }
