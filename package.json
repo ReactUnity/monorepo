@@ -13,5 +13,8 @@
       "core/.react/quick-start"
     ]
   },
-  "packageManager": "yarn@4.0.2"
+  "volta": {
+    "node": "20.18.0",
+    "yarn": "1.22.22"
+  }
 }
