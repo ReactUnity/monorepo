@@ -2,19 +2,19 @@
   "folders": [
     {
       "path": ".",
-      "name": "ROOT"
+      "name": "🌳 ROOT"
     },
     {
-      "path": "full-sample/react"
+      "path": "🖊️ full-sample/react"
     },
     {
-      "path": "core"
+      "path": "🧲 core"
     },
     {
-      "path": "renderer"
+      "path": "🖼️ renderer"
     },
     {
-      "path": "scripts"
+      "path": "🛠️ scripts"
     },
     {
       "path": "quickjs"
@@ -26,39 +26,50 @@
       "path": "clearscript"
     },
     {
-      "path": "create"
+      "path": "📦 create"
     },
     {
-      "path": "previewer"
+      "path": "🌐 previewer"
     },
     {
-      "path": "material"
+      "path": "⌨️ material"
     },
     {
-      "path": "full-sample"
+      "path": "🎮 full-sample"
     },
     {
+      "name": "Core / Quick Start",
       "path": "core/.react/quick-start"
     },
     {
+      "name": "Core / Devtools",
       "path": "core/.react/devtools"
     },
     {
+      "name": "Core / Injectable",
       "path": "core/.react/injectable"
     },
     {
       "path": "docs"
-    },
-    {
-      "path": "previewer"
     }
   ],
   "settings": {
-    "typescript.tsdk": "./node_modules./typescript./lib",
+    "typescript.tsdk": "./node_modules/typescript/lib",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
+      "quickfix.biome": "explicit",
+      "source.organizeImports.biome": "explicit",
+      "source.fixAll.biome": "explicit"
     },
+    "[js][jsx][ts][tsx][typescript][typescriptreact][javascript][javascriptreact][json][jsonc]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[html][css][scss][markdown][mdx]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.editor.labelFormat": "medium",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
     "peacock.color": "#13321c",
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#215731",

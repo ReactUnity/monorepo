@@ -16,18 +16,6 @@
         {
           "label": "Pull All",
           "value": "git submodule foreach git pull"
-        },
-        {
-          "label": "Update Packages",
-          "value": "yarn workspaces foreach exec npx -y npm-check-updates -u"
-        },
-        {
-          "label": "Build All",
-          "value": "yarn workspaces foreach run build"
-        },
-        {
-          "label": "Lint All",
-          "value": "yarn workspaces foreach run lint"
         }
       ]
     }
