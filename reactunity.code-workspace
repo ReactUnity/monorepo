@@ -5,51 +5,63 @@
       "name": "🌳 ROOT"
     },
     {
-      "path": "🖊️ full-sample/react"
+      "name": "🏖️ React Full Sample",
+      "path": "full-sample/react"
     },
     {
-      "path": "🧲 core"
+      "name": "🧲 Core",
+      "path": "core"
     },
     {
-      "path": "🖼️ renderer"
+      "name": "🖼️ renderer",
+      "path": "renderer"
     },
     {
-      "path": "🛠️ scripts"
+      "name": "🛠️ Scripts",
+      "path": "scripts"
     },
     {
+      "name": "🧰 QuickJS",
       "path": "quickjs"
     },
     {
+      "name": "🧰 Jint",
       "path": "jint"
     },
     {
+      "name": "🧰 ClearScript",
       "path": "clearscript"
     },
     {
-      "path": "📦 create"
+      "name": "📦 Create",
+      "path": "create"
     },
     {
-      "path": "🌐 previewer"
+      "name": "🌐 Previewer",
+      "path": "previewer"
     },
     {
-      "path": "⌨️ material"
+      "name": "⌨️ Material",
+      "path": "material"
     },
     {
-      "path": "🎮 full-sample"
+      "name": "🎮 Full Sample",
+      "path": "full-sample"
     },
     {
-      "name": "Core / Quick Start",
+      "name": "⚒️ Core / Quick Start",
       "path": "core/.react/quick-start"
     },
     {
-      "name": "Core / Devtools",
+      "name": "⚒️ Core / Devtools",
       "path": "core/.react/devtools"
     },
     {
-      "name": "Core / Injectable",
+      "name": "⚒️ Core / Injectable",
       "path": "core/.react/injectable"
     },
     {
+      "name": "📖 Docs",
       "path": "docs"
     }
   ],
